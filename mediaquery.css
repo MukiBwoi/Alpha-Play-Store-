@@ -1,0 +1,44 @@
+            @media only screen and (max-width: 900px) {
+                section img {
+                    width: auto;
+                    height: 40px;
+                }
+                section h1,
+                .apps h1,
+                .games h1 {
+                    font-size: 35px;
+                }
+                .apps p,
+                .games p {
+                    font-size: 17px;
+                }
+                .apps button,
+                .games button {
+                    margin-top: 0vh;
+                    font-size: 15px;
+                    padding: 10px;
+                    font-weight: 600;
+                }
+            }
+            
+            @media only screen and (min-width: 900px) {
+                .apps button,
+                .games button {
+                    margin-top: 2vh;
+                }
+            }
+            
+            @media only screen and (max-width: 520px) {
+                .myform {
+                    transform: scale(0.7);
+                }
+                .svg img {
+                    transform: scale(0.3);
+                }
+                .subscribe {
+                    transform: scale(0.8);
+                }
+                .subscribe .btn-primary {
+                    margin-top: 0.8rem;
+                }
+            }

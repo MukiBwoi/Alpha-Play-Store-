@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: url("./img/Apps.jpg") no-repeat center center fixed;
+    background-size: cover;
+    padding: 5vh 5vw 5vh 5vw;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+header {
+    background-color: rgba( 255, 255, 255, 0.1);
+    background-size: cover;
+    border-radius: 10px;
+    font-family: "Open Sans", "Lato", sans-serif;
+    padding-bottom: 50px;
+}
+
+section img {
+    width: auto;
+    height: 20vh;
+    transition: 0.9s ease;
+}
+
+section h1 {
+    color: white;
+    transition: 0.9s ease;
+}
+
+section {
+    text-align: center;
+    padding-bottom: 5vh;
+}
+
+.bgimg {
+    background-color: rgba( 255, 255, 255, 0.2);
+    background-size: cover;
+    position: relative;
+    top: 3vh;
+    margin: 5vw 5vw 0vw 5vw;
+    border-radius: 10px;
+    padding: 3vw;
+    color: white;
+}
+
+.bgimg1 {
+    background-color: rgba( 255, 255, 255, 0.1);
+    background-size: cover;
+    position: relative;
+    top: 3vh;
+    margin: 5vw 5vw 0vw 5vw;
+    border-radius: 10px;
+    padding: 3vw;
+    color: white;
+}
+
+.apps h1,
+.games h1 {
+    font-weight: bolder;
+    transition: 1s;
+}
+
+.apps p,
+.games p {
+    transition: 1s;
+}
+
+.apps h1,
+.games h1 {
+    margin-top: 2rem;
+}
+
+.games h1,
+.games p,
+.games button,
+.apps h1,
+.apps p,
+.apps button {
+    text-align: left;
+    float: left;
+}
+
+.games button,
+.apps button {
+    padding: 0.9vw;
+    border-radius: 20px;
+    border: none;
+    font-size: 1vw;
+    transition: 0.9s ease;
+    font-weight: 600;
+    background-color: rgba(0, 123, 255, 0.5);
+}
+
+.games button:hover,
+.apps button:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #007bff;
+    font-weight: 600;
+}
+
+.heading h1 {
+    padding-bottom: 50px;
+}
+
+.heading {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.horizontal {
+    text-align: center;
+}
+
+.horizontal .img-thumbnail {
+    margin-bottom: 10px;
+}
+
+.horizontal button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 123, 255, 0.5);
+    color: white;
+    transition: 0.7s ease;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.horizontal button:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #007bff;
+    font-weight: 600;
+}
+
+.More {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.More button {
+    background-color: rgba( 255, 255, 255, 0.1);
+    border: none;
+    padding: 10px 100px;
+    color: white;
+    font-weight: 600;
+    transition: 0.9s;
+}
+
+.More button:hover {
+    background-color: rgba( 255, 255, 255, 0.4);
+    color: white;
+    font-weight: bolder;
+}
+
+.horizontal img {
+    transition: 1s;
+}
+
+.horizontal img:hover {
+    transform: scale(1.1);
+}
+
+.bgimg2 {
+    background-color: rgba( 255, 255, 255, 0.2);
+    background-size: cover;
+    position: relative;
+    top: 3vh;
+    margin: 5vw 5vw 0vw 5vw;
+    border-radius: 10px;
+    color: white;
+    padding: 50px 60px 0px 60px;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba( 255, 255, 255, 0.2);
+    height: 50vh;
+    border-radius: 20px;
+    transition: all 1s ease;
+    margin-bottom: 40px;
+}
+
+.item:hover {
+    transform: translateY(-20px);
+}
+
+.incontent {
+    width: fit-content;
+    height: fit-content;
+    transform: scale(0.5);
+    transition: all 1s;
+}
+
+.incontent h6 {
+    font-size: 60px;
+    text-align: center;
+    padding-top: 70px;
+    font-weight: bolder;
+    color: white;
+}
+
+.incontent img,
+h6 {
+    opacity: 0.7;
+}
+
+.formbg {
+    background-color: rgba( 255, 255, 255, 0.2);
+    background-size: cover;
+    position: relative;
+    top: 3vh;
+    margin: 5vw 5vw 0vw 5vw;
+    border-radius: 10px;
+    padding: 3vw;
+    color: white;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myform {
+    text-align: center;
+}
+
+.form-group label {
+    color: white;
+}
+
+.myform h2 {
+    color: white;
+    padding-bottom: 3rem;
+    width: fit-content;
+    height: fit-content;
+}
+
+.myform .form-control {
+    background-color: rgba( 255, 255, 255, 0.1);
+    border-radius: 20px;
+    width: 100%;
+}
+
+form .btn {
+    margin: 1.5rem 0rem;
+    padding: 0.5rem 11rem;
+    border-radius: 20px;
+    background-color: rgba(0, 123, 255, 0.6);
+    transition: all 0.9s ease;
+}
+
+form .btn:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #007bff;
+    font-weight: 600;
+}
+
+.svg img {
+    transform: scale(0.4);
+}
+
+.svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subEmail {
+    border-radius: 20px;
+    background-color: rgba( 255, 255, 255, 0.1);
+    padding: 0.5rem 2rem;
+    color: white;
+    outline: none;
+    border: solid white 1px;
+}
+
+.subscribe .btn-primary {
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    background-color: rgba(0, 123, 255, 0.5);
+    transition: all 0.9s ease;
+    margin-left: 1rem;
+    border: #007bff solid 1px;
+}
+
+.subscribe .btn-primary:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #007bff;
+    font-weight: 600;
+}
+
+.credits {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
